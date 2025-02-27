@@ -37,11 +37,12 @@ class _MyAppState extends State<MyApp> {
           child: Padding(
             padding: const EdgeInsets.all(10),
             child: Column(
+              spacing: 40,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
                   width: double.infinity,
-                  height: 50,
+                  height: 60,
                   padding: const EdgeInsets.only(
                     left: 5,
                     right: 5,
@@ -63,7 +64,6 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ),
                 ),
-                Container(height: 50),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -129,7 +129,6 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ],
                 ),
-                Container(height: 40),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -187,7 +186,6 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ],
                 ),
-                Container(height: 40),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -245,7 +243,6 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ],
                 ),
-                Container(height: 40),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -303,7 +300,6 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ],
                 ),
-                Container(height: 40),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
